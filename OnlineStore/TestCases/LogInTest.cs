@@ -26,9 +26,6 @@ namespace OnlineStore_1.TestCases
             // Now submit the form.
             driver.FindElement(By.Id("login")).Click();
 
-            // Find the element that's ID attribute is 'account_logout' (Log Out)
-            driver.FindElement(By.XPath(".//*[@id='account_logout']/a")).Click();
-
             // Close the driver
             driver.Quit();
 
